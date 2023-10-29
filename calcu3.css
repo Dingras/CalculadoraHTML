@@ -1,0 +1,37 @@
+﻿body{
+    background-color: rgb(0, 0, 0);
+}
+.card{
+    width: 360px;
+    margin: 0 auto;
+}
+.btn-circle {
+    border-radius: 50%;
+    width: 60px; /* Ajustar el ancho */
+    height: 60px; /* Ajustar la altura */
+    font-size: 20px; /*Ajustar el tamaño de fuente*/
+    line-height: 0px; /*Ajustar altura de fuente*/
+}
+.btn-circle-double {
+    border-radius: 30px;
+    height: 60px;
+    width: 146px;
+    font-size: 20px; 
+}
+.custom-black-bg {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.custom-textbox {
+    background-color: transparent;
+    color: white; /* Color de letras blanco */
+    font-size: 50px; /* Tamaño de fuente más grande */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+}
+.custom-label {
+    color: #000000; /* Color de letra blanco */
+}
+::placeholder{
+    color: white;
+}
